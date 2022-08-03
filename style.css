@@ -21,7 +21,7 @@ h1 {
 }
 
 .principal{
-    background-image: url(imagens/Background.png);
+    background-image: url(img/Background.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
