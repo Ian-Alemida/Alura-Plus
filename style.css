@@ -1,0 +1,142 @@
+:root {
+    --branco-principal: #ffffff;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030c;
+    --botao-azul-hover: #0f7afd;
+    --fonte-principal: 'inter';
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.principal{
+    background-image: url(imagens/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+}
+
+.Container__caixa {
+    margin: 0 6em;
+}
+
+.container__img {
+    margin: 1em 0 2em 0;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    text-align: center;
+    border-radius: 9px;
+    padding: 9px;
+    display: block;
+    border: 2px solid var(--botao-azul);
+    margin-bottom: 1em;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+/*segunda tela*/
+
+.secundario__imagem {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.descricao__titulo {
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+
+/*terceira tela*/
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+/*dispositivos favoritos*/
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    margin: 6em 0;
+}
+
+.lista__item {
+    font-size: 32px;
+}
+
+/*footer*/
+
+.rodape {
+    margin: 5em 0;
+}
+
+.img__footer {
+    display: block;
+    margin: 0 auto 2em;
+}
+
+.rodape__lista {
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.lista__link{
+    margin-right: 16px;
+}
+
+.footer__texto {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 2em;
+    color: var(--cinza-secundario);
+}
+
+.container__botao:hover {
+    background-color: var(--botao-azul-hover);
+    color: var(--cor-de-fundo);
+}
+
+.lista__link a:hover {
+    color: var(--botao-azul-hover);
+}
+
